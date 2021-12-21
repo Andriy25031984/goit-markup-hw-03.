@@ -9,20 +9,20 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
 }
+.container{
+  width: 1200px;
+  
+}
 .section{ 
   padding-bottom: 94px;
 }
-.cotainer{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .page-header {
   background-color: var(--white-color);
 }
 /* logo */
 .page-header-logo {
-  margin: 93px;
+  margin-right:  93px;
 
   color: var(--title-text-color);
   text-decoration: none;
@@ -39,6 +39,7 @@ body {
 .main-nav{
   display: flex;
   align-items: center;
+  border-bottom: #ECECEC;
 }
 .site-nav-list{
   display: flex;
