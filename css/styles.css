@@ -198,7 +198,7 @@ color: #212121;
 
    list-style: none;
 }
-.team-item:not(last-child){
+.team-item:not(:last-child){
  margin-right: 30px;
 }
 .team-title {
@@ -236,6 +236,9 @@ padding-bottom: 30px;
   background-color: #2f303a;
 }
 .logo {
+  display: flex;
+  margin-bottom: 20px;
+
   color: var(--white-color);
   text-decoration: none;
   font-family: Raleway;
@@ -246,7 +249,6 @@ padding-bottom: 30px;
 }
 .botom-list{
   padding: 0;
-  margin-top: 20px;
 
    list-style: none;
 }
@@ -277,8 +279,6 @@ padding-bottom: 30px;
   text-decoration: none;
 }
 .portfolio-title {
-    margin-top: 20px;
-
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
